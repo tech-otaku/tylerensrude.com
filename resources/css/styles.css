@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+	border:none;
+}
+
+#wrapper {
+	position:relative;
+	width: 800px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+#linkContainer {
+	position: absolute;
+	width: 270px;
+	height: 80px;
+	top: 425px;
+	left: 270px;
+	z-index: 100;
+}
+
+.links {
+	width: 75px;
+	height: 75px;
+	float: left;
+	padding-left: 10px;
+}
+	
+
+

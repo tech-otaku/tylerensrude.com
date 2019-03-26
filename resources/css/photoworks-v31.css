@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:focus { 
+	outline: 0;	/*removes dashed focus border in Firefox */
+} 
+
+
+body {
+	margin: 0;
+	font-family: Courier, monospace;
+	font-size: 1em;
+	font-size: 16px;
+	background-image: url(../images/photo_works/backgrounds/iseya3-45.png);
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 1em;
+	display: inline;
+}
+
+h1 span {
+	display: none; /* For Farhner Image Replacement (FIR) */
+}
+
+
+#banner {
+	font-size: 2em;
+	height: 40px;
+	margin: 0 0 0 30px;
+	line-height: 1.25em;
+	background-image: url(../images/photo_works/misc/masthead.png);
+	background-repeat: no-repeat;
+	background-color: none;
+}
+
+
+#outerContainer {
+	width: 900px;
+	height: 610px;
+	margin: 0 auto;
+	position: relative;
+	/*background-image: url(../images/photo_works/backgrounds/outer-container-bg.png);
+	border-left: 1px solid #999; 
+	border-bottom: 1px solid #999; 
+	border-right: 1px solid #999;*/
+}
+
+
+#imageContainer {
+	width: 600px;
+	height: 530px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+}
+
+#imageA {
+	opacity: 0;
+	filter:alpha(opacity=0);	/* for IE */
+	position: absolute; 
+	border: 3px solid white;
+}
+
+#imageB {
+	opacity: 0;
+	filter:alpha(opacity=0);	/* for IE */
+	position: absolute; 
+	border: 3px solid white;
+}
+
+#loader {
+	width: 16px;
+	height: 16px;
+	left: 292px;
+	top: 257px; 
+	opacity: 0;
+	filter:alpha(opacity=0);	/* for IE */
+	position: absolute; 
+}
+
+#menuContainer {
+	width: 250px; 
+	margin: 20px 0 0 30px;
+	/*position: absolute;
+	top: 200px;*/
+}
+
+#navContainer {
+	width: 250px;
+	height: 20px;
+	position: absolute;
+	right: 175px;
+	bottom: 20px;
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1em;
+	opacity: 0;
+	filter:alpha(opacity=0);	/* for IE */
+}
+
+#navContainer a {
+	text-decoration:none;
+	color:#000;
+}
+
+#navContainer a:hover {
+	color: #666;
+}
+
+
+#currentPhoto {
+	width: 600px;
+	height: 20px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	font-size: .8em;
+	line-height: 1em;
+	color: #666;
+}
+
+/*
+.title {
+	font-size: .9em !important;
+	width: 250px;
+	line-height: 1em;
+}
+
+.title a {
+	text-decoration:none;
+	color:#000;
+}
+
+.title a:hover {
+	color: #666;
+}
+*/
+
+
+
+.albumLinks {
+	font-size: 0.8em;
+	list-style:none;
+	line-height: 1.75em;
+	display: block;
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+
+.albumLinks a {
+	text-decoration:none;
+	color:#000;
+}
+
+.albumLinks a:hover {
+	color: #666;
+}
+
+
+#copyright {
+	/*display: inline;*/
+	width:270px;
+	height: 10px;
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	font-size: 0.6em;
+	line-height: 1em;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 0 30px;
+	color: #818181;
+}
+
+#copyright p {
+	display:inline;
+}
+
+.nolink {
+	color: #575757;
+	font-weight: bold;
+}
+
+#copyright a {
+	text-decoration:none;
+	color: #575757;
+	font-weight: bold;
+
+}
+
+#copyright a:hover {
+	text-decoration:none;
+	color: #2D2D2D;
+}

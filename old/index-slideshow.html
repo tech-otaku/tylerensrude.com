@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>tyler ensrude photography</title>
+
+<link href='resources/css/photoworks.css' rel='stylesheet' type='text/css' /> 
+
+<script src='scriptaculous/prototype.js' type="text/javascript"></script>
+<script src='scriptaculous/scriptaculous.js' type="text/javascript"></script>
+<script src='resources/scripts/XMLHttpRequest-async-ss.js' type="text/javascript"></script>
+<script src='resources/scripts/photoworks-async-ss.js' type="text/javascript"></script>
+<!-- <script src='resources/scripts/misc.js' type="text/javascript"></script> -->
+
+<!-- Spry Accordion -->
+<script type='text/javascript' src='SpryAssets/SpryAccordion.js'></script>
+<!-- <script type='text/javascript' src='SpryAssets/SpryEffects.js'></script> -->
+<link href='SpryAssets/SpryAccordion-custom.css' rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+</script>
+	
+</head>
+
+<body>
+
+	
+	
+	
+	
+
+	<div id='outerContainer'>
+	
+		<div id='banner'></div>
+	
+		<div id='imageContainer'>
+			<div id="imageA"><img id='A'/></div>
+			<div id="imageB"><img id='B'/></div>
+			<div id="loader"><img src='resources/images/photo_works/ajax-loader.gif'/></div>
+		</div>
+		
+		<div style="width: 250px; margin: 20px 0 0 30px;">
+			
+			<div id="menu" class="Accordion">
+				<div class="AccordionPanel">
+					<div class="AccordionPanelTab title">=projects</div>
+					<div class="AccordionPanelContent">
+						<ul class='albumLinks'>
+							<!-- <li><a href="#" id='esther'>&nbsp;-esther 2000</a></li> -->	
+							<li><a href="#" id='esther'>&nbsp;-esther 2000</a></li>
+							<li><a href="#" id='bent'>&nbsp;-bent 2004</a></li>
+							<li><a href="#" id='shoe'>&nbsp;-shoe 2005</a></li>
+							<li><a href="#" id='boy-in-a-bubble'>&nbsp;-boy in a bubble 2008</a></li>
+							<li><a href="#" id='twenty-nine'>&nbsp;-twenty-nine 2008-2009</a></li>
+							<li ><a href="#" id='freelance-random'>&nbsp;-freelance work</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="AccordionPanel">
+					<div class="AccordionPanelTab title">=contact</div>
+					<div class="AccordionPanelContent">
+						<ul class='albumLinks'>
+							<li><a href="mailto:tensrude@gmail.com?subject=Tyler Ensrude Photography - Site Message" onclick="">&nbsp;-email</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="AccordionPanel">
+					<div class="AccordionPanelTab title">=blogs</div>
+					<div class="AccordionPanelContent">
+						<ul class='albumLinks'>
+							<li><a href="http://www.tylerensrude29.blogspot.com/" target="_blank">&nbsp;-29blog</a></li>
+							<li><a href="http://www.tylerensrude.blogspot.com/" target="_blank">&nbsp;-newblog</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div style="position: absolute; bottom: 0px; left: 0px; width: 300px; height: 250px; font-size: .8em;">
+		<form id='infoForm'>
+			
+			border: <input type="text" name="border" value=""/>
+			
+			
+			gCurrentImage: <input type="text" name="gCurrentImage" value=""/>
+			gImageACounter: <input type="text" name="gImageACounter" value=""/>
+			gImageBCounter: <input type="text" name="gImageBCounter" value=""/>
+			gCounter: <input type="text" name="gCounter" value=""/>
+			
+			
+		</form>
+	</div>
+		
+		<div id='copyright'>
+			<p>&copy; 2009 &#124; Design </p>
+			<p class='nolink'>Tyler Ensrude</p>
+			<p>&#124; Code <a href='http://patchpeters.com/index.php?gallery=flex&panel=4' target='_blank'>Steve Ward</a></p>
+		</div>
+		
+		<!--	
+		<div id='navContainer' >
+			<a href="#" id='previous'>prev</a> &nbsp;|&nbsp;
+			<a href="#" id='next'>next</a>
+		</div>
+		-->
+		
+		<div id='navContainerNew'>
+			<a href="#" id='previous'>prev</a> &nbsp;|&nbsp;
+			<a href="#" id='play'>play</a> &nbsp;|&nbsp;
+			<a href="#" id='next'>next</a>
+		</div>
+			
+		<div id='currentPhoto'>&nbsp;</div>
+		
+	</div>
+
+	<script type='text/javascript'>
+		Initialise();
+	</script>
+	
+</body>
+</html>

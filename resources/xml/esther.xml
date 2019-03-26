@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images album="esther 2000" photos="20" path="resources/images/photo_works/estherweb/">
+	<image>
+		<id>id_image_1</id>
+		<filename>esther1.jpg</filename>
+		<width>377</width>
+		<height>504</height>
+	</image>
+	<image>
+		<id>id_image_2</id>
+		<filename>esther2.jpg</filename>
+		<width>504</width>
+		<height>360</height>
+	</image>
+	<image>
+		<id>id_image_3</id>
+		<filename>esther3.jpg</filename>
+		<width>392</width>
+		<height>504</height>
+	</image>
+	<image>
+		<id>id_image_4</id>
+		<filename>esther4.jpg</filename>
+		<width>361</width>
+		<height>504</height>
+	</image>
+	<image>
+		<id>id_image_5</id>
+		<filename>esther6.jpg</filename>
+		<width>504</width>
+		<height>348</height>
+	</image>
+	<image>
+		<id>id_image_6</id>
+		<filename>esther7.jpg</filename>
+		<width>361</width>
+		<height>504</height>
+	</image>
+</images>

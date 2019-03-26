@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+:focus { 
+	outline: 0;	/*removes dashed focus border in Firefox */
+} 
+
+ * {
+	padding: 0;
+	margin: 0;
+	/*border: 0;*/
+}
+
+body, html {
+	color: #c1c1c1;
+	background-color: #FFF;
+	text-align: center; /*** Centers the design in old IE versions ***/
+	height: 100%;
+	font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+body {
+	/* browser default 16px or 1em */
+	font-size: 1em;
+}
+
+html {
+	/* browser default 16px or 100% */
+	font-size: 100%;
+}
+
+p {
+	padding: 5px 5px 5px 20px;
+}
+
+h1, h2, h3, h4 {
+	color: #666;
+	padding: 0 0 0 5px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+
+#mainWrapper {
+	width: 100%;
+	margin: 0 auto; 
+	min-height: 100%;
+	text-align: left;
+	/*min-width: 600px;*/
+}
+
+* html #mainWrapper {
+	/* IE doesn't support min-height, but instead it handles height as min-height so we need to hack the height */
+	height: 100%;  
+}
+
+#header {
+	height: 70px;
+	padding: 0px;
+	/*background: url(../images/header.png) repeat-x;*/
+}
+
+#outerWrapper {
+	padding-bottom: 30px;
+}
+
+* html #outerWrapper {
+	padding-right: 120px; /* Normally this shouldn't be in this hack, it should be in .outerWrapper, but because of IE7 I had to */
+}
+
+* html {
+	/* No need for hacking IE on this layout */
+}
+
+#contentWrapper {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+* html #contentWrapper {
+	/*** IE needs this  ***/
+	position: relative;  
+}
+
+
+#footer {
+	width: 100%;
+	height: 23px;
+	margin: 0 auto;
+	margin-top: -30px;		/* footer height + padding-top + border-top width + border-bottom width */
+	text-align: center;
+	color: #666;	
+	padding-top:7px
+}
+
+#footer a {
+	color:#888;
+	font-weight:normal;
+	/*border-bottom-style: dotted;
+	border-bottom-width: 1px;*/
+	text-decoration: none;
+
+}
+
+#footer a:hover {
+	color: #C3C3C3;
+}
+
+
+
+#header, #footer {
+	background-color:#FFF;
+	min-width: 500px;
+	font-size: 75%;
+}
+
+
+.boxLeft {
+	float:left;
+	margin: 0 0 0 1em;
+}
+	
+.boxRight {
+	float: right;
+	margin: .5em 10px  0 0;
+}
+
+
+.clear { 
+	clear: both;
+}
+
+#headerBoxTop {
+	height: 50px;
+	width: 100%;
+}
+
+#headerBoxBottom {
+	height: 20px;
+	width: 100%;
+	/*background: url(../images/controlBanner.png) repeat-x;*/
+}
+
+.temp_border {
+	border: 1px #666 solid;
+}
